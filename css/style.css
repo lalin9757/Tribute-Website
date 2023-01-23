@@ -1,0 +1,226 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e0d5d523;
+    background-image: url(../img/pikrepo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+/* header start here */
+.header-style{
+    border: 2px solid #000000;
+    padding: 20px;
+    margin: 20px;  
+    text-align: center;
+    border-radius: 5px;
+    background-color:#065d6510;
+}
+#poet{
+    font-size: 18px;
+    color: #4b4848;
+}
+/* sidebar here */
+.sidebar-grandfather{
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+.sidebar-child a {
+    text-decoration: wavy;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+}
+.sidebar-child a:hover {
+    color: #0691a7;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.sidebar-parent{
+    flex: 1;
+    border: 2px solid #000000;
+    padding: 20px;
+    margin: 10px;
+    line-height: 40px;
+    border-radius: 5px;
+    background-color:#065d6510;
+}
+.content-parent{
+    flex: 4;
+    border: 2px solid #000000;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color:#065d6510;
+}
+.content-child{
+    text-align: center;
+}
+.content-child p {
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 500;
+}
+.content-title{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: -25px;
+    padding-bottom: 25px;
+    border-bottom:2px solid #000000 ;
+}
+/* contact form start here */
+.content-parent{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+.content-child-form{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.content-child-form input{
+    padding: 10px;
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #fff7f767;
+}
+.content-child-form textarea{
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #fff7f767;
+}
+.content-child-form a{
+    text-decoration: none;
+    color:#ffffff;
+    border: 2px solid #070100;
+    background-color: #000000;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+}
+.content-child-form a:hover{
+    text-decoration: none;
+    color:#000000;
+    border: 2px solid #0d0300;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+/* footer start here */
+.footer-container{
+    color: #230202b5;
+    background-color: #B2E1D1;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Mobile responsive */
+@media (max-width: 767px) {
+/* Early life and education */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e0d5d523;
+}
+h1{
+    font-size: 25px
+}
+#poet{
+    font-size: 14px;
+    color: #4b4848;
+}
+/* sidebar here */
+.sidebar-grandfather{
+    display:block;
+    align-items: flex-start;
+    margin: 10px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+.sidebar-child a {
+    text-decoration: wavy;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 700;
+}
+.content-child p {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+}
+/* form start here */
+.content-child-form input{
+    padding: 10px;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #fff7f767;
+}
+.content-child-form textarea{
+    padding-left: 10px;
+    padding-right: 65px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #fff7f767;
+}
+/* footer start here */
+.footer-container{
+    font-size: 12px;
+    color: #230202b5;
+    background-color: #B2E1D1;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

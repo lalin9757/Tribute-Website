@@ -1,0 +1,137 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e0d5d523;
+    background-image: url(../img/pikrepo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* header start here */
+.header-style{
+    border: 2px solid #000000;
+    padding: 20px;
+    margin: 20px;  
+    text-align: center;
+    border-radius: 5px;
+    background-color:#065d6510;
+}
+#poet{
+    font-size: 18px;
+    color: #4b4848;
+}
+/* sidebar here */
+.sidebar-grandfather{
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+.sidebar-child a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+}
+.sidebar-child a:hover {
+    color: #0691a7;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.sidebar-parent{
+    flex: 1;
+    border: 2px solid #000000;
+    padding: 20px;
+    margin: 10px;
+    line-height: 40px;
+    border-radius: 5px;
+    background-color:#065d6510;
+}
+.content-parent{
+    flex: 4;
+    border: 2px solid #000000;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color:#065d6510;
+}
+.content-child p {
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 500;
+}
+.content-child li {
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 500;
+}
+.content-title{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 0px;
+    padding-bottom: 25px;
+    border-bottom:2px solid #000000 ;
+}
+/* footer start here */
+.footer-container{
+    color: #230202b5;
+    background-color: #B2E1D1;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* Mobile responsive */
+@media (max-width: 767px) {
+    /* Early life and education */
+    body{
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #e0d5d523;
+    }
+    h1{
+        font-size: 25px
+    }
+    #poet{
+        font-size: 14px;
+        color: #4b4848;
+    }
+    /* sidebar here */
+    .sidebar-grandfather{
+        display:block;
+        align-items: flex-start;
+        margin: 10px;
+        border-radius: 5px;
+        flex-wrap: wrap;
+    }
+    .sidebar-child a {
+        text-decoration: wavy;
+        color: #000000;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .content-child p {
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: 400;
+    }
+    .content-child li {
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: 400;
+    }
+    /* footer start here */
+.footer-container{
+    font-size: 12px;
+    color: #230202b5;
+    background-color: #B2E1D1;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+}
